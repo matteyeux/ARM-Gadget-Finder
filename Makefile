@@ -1,9 +1,9 @@
 CC = gcc
 
-all : gadget_finder
+all : gad
 
-gadget_finder : gadget_finder.c
-	$(CC) gadget_finder.c -o gadget_finder
+gad : gadget_finder.c
+	$(CC) gadget_finder.c -o gad
 
 clean :
-	rm -rf gadget_finder
+	rm -rf gad
